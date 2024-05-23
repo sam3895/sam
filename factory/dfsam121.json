@@ -1,0 +1,9 @@
+{
+	"name": "dfsam121",
+	"location": "westus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "38d3db7b-7837-4a90-9aa8-4cac622b7367",
+		"tenantId": "85dfaeb4-625d-4dd5-9281-72ed55c68865"
+	}
+}
