@@ -10,7 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"fileName": "Note1 (2).txt",
+				"fileName": "PurchaseOrder (1).csv",
 				"folderPath": "source",
 				"fileSystem": "data"
 			},
