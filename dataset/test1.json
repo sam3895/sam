@@ -1,0 +1,29 @@
+{
+	"name": "test1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "data",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "Note1 (2).txt",
+				"folderPath": "source",
+				"fileSystem": "data"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "Azure Active Directory>>previously",
+				"type": "String"
+			}
+		]
+	}
+}
